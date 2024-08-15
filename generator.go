@@ -198,7 +198,7 @@ func NewGenerator(options ...GeneratorOption) *Generator {
 		omitEmptyTags:            OmitEmptyTagsAuto,
 		packageName:              "main",
 		skipUnparsableProperties: true,
-		structTagNames:           []string{"json"},
+		structTagNames:           []string{"json", "mapstructure"},
 		typeName:                 "T",
 		useJSONNumber:            false,
 		value:                    &value{},
