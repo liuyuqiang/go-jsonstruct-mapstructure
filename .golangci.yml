@@ -99,12 +99,12 @@ linters-settings:
     sections:
     - standard
     - default
-    - prefix(github.com/twpayne/go-jsonstruct)
+    - prefix(github.com/liuyuqiang/go-jsonstruct-mapstructure)
   gofumpt:
     extra-rules: true
-    module-path: github.com/twpayne/go-jsonstruct
+    module-path: github.com/liuyuqiang/go-jsonstruct-mapstructure
   goimports:
-    local-prefixes: github.com/twpayne/go-jsonstruct
+    local-prefixes: github.com/liuyuqiang/go-jsonstruct-mapstructure
 
 issues:
   exclude-rules:
