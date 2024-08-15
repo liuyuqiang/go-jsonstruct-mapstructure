@@ -3,13 +3,12 @@ package main
 import (
 	"compress/gzip"
 	"fmt"
+	"github.com/liuyuqiang/go-jsonstruct-mapstructure"
 	"io"
 	"os"
 	"strings"
 
 	"github.com/spf13/pflag"
-
-	"github.com/twpayne/go-jsonstruct/v3"
 )
 
 var (
